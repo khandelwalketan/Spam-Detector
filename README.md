@@ -1,31 +1,47 @@
-# Spam-Detector
-This project is focused on building an efficient Email Spam Detector using Python and popular Machine Learning techniques. The objective is to train a model capable of classifying incoming emails as either Spam or Ham (Non-Spam), improving inbox management by filtering unwanted and potentially harmful emails.
+📧 Spam Detector
+This project focuses on building an efficient Email Spam Detection System using Python and Machine Learning. The goal is to classify incoming emails as either Spam or Ham (Non-Spam), improving inbox management by filtering unwanted and potentially harmful emails.
 
-The project follows a standard data science pipeline:
+🚀 Live Demo
+👉 Check out the deployed app here:
+🔗 Spam Detector Streamlit App
 
-Data Loading:
+📝 Project Overview
+The project follows a standard Data Science Workflow:
 
-A dataset containing labeled spam and ham emails is used as the foundation for training and evaluation.
+1️⃣ Data Loading
+Utilized a dataset containing labeled examples of both spam and ham emails.
 
-Data Preprocessing:
+2️⃣ Data Preprocessing
+Removed unnecessary characters.
 
-Cleaning unnecessary characters, deduplication, handling missing values, and transforming the text into a usable format.
+Deduplicated records.
 
-Feature Extraction:
+Handled missing values.
 
-Using TF-IDF (Term Frequency-Inverse Document Frequency) to convert the email text into numerical vectors suitable for machine learning models.
+Transformed email text into a clean format.
 
-Model Training:
+3️⃣ Feature Extraction
+Applied TF-IDF (Term Frequency-Inverse Document Frequency) to convert the email text into numerical vectors suitable for machine learning.
 
-Applied algorithms like Multinomial Naive Bayes.
+4️⃣ Model Training
+Trained a Multinomial Naive Bayes model.
 
-Fine-tuned using hyperparameter optimization techniques.
+Performed hyperparameter tuning for optimization.
 
-Evaluation:
+5️⃣ Evaluation
+Evaluated using:
 
-Model performance is assessed with metrics such as Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
+Accuracy
 
-Real-Time Prediction:
+Precision
 
-Deployed using Streamlit for real-time spam detection where users can input any email text and get immediate classification.
+Recall
 
+F1-Score
+
+Confusion Matrix
+
+6️⃣ Real-Time Prediction
+Deployed the trained model using Streamlit.
+
+Users can input any email message and instantly receive spam classification results.
