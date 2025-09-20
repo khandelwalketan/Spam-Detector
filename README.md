@@ -2,7 +2,7 @@
 This project focuses on building an efficient Email Spam Detection System using Python and Machine Learning. The goal is to classify incoming emails as either Spam or Ham (Non-Spam), improving inbox management by filtering unwanted and potentially harmful emails.
 
 ## Live Demo
-Check out the deployed Streamlit app here: [Live Demo](https://khandelwalketan-spam-detector-app-ysij4n.streamlit.app/)
+Check out the deployed Streamlit app here: [Live Demo](http://localhost:8501)
 
 
 📝 Project Overview
