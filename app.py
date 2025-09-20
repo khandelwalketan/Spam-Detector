@@ -1,8 +1,8 @@
 import streamlit as st
-import joblib  # <-- Use joblib instead of pickle
+import joblib  # For loading model and vectorizer
 
 # Load trained model and vectorizer
-model = joblib.load('spam_classifier_model.pkl')  # Correct way to load
+model = joblib.load('spam_classifier_model.pkl')
 vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 # Streamlit UI
